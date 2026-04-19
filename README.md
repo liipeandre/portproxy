@@ -13,7 +13,7 @@ O PortProxy é uma ferramenta de rede desenvolvida em Go. Ele funciona de forma 
 
 - Performance em Go: Aproveita o modelo de concorrência do Go para garantir que o redirecionamento não seja um gargalo na rede.
 
-- Sem Dependências: O binário compilado contém tudo o que é necessário para rodar, facilitando a distribuição em diferentes máquinas.
+- Sem Dependências: O binário compilado contém tudo o que é necessário para rodar, facilitando a distribuição em diferentes máquinas. A ferramenta permite o uso na inicialização do sistema operacional, através tarefas agendadas (Windows) ou crontab (Linux) por exemplo.
 
 
 ## Como Compilar
