@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O PortProxy é uma ferramenta de rede de alta performance desenvolvida em Go. Ele funciona de forma análoga ao comando netsh interface portproxy do Windows, mas com um diferencial crucial: suporte nativo a tráfego UDP, além do TCP, usando o recurso de sockets.
+O PortProxy é uma ferramenta de rede desenvolvida em Go. Ele funciona de forma análoga ao comando netsh interface portproxy do Windows, mas com um diferencial crucial: suporte nativo a tráfego UDP, além do TCP, usando o recurso de sockets.
 
 É a solução ideal para administradores que precisam de um redirecionamento de portas leve, sem as limitações de protocolo do utilitário nativo do sistema operacional.
 
